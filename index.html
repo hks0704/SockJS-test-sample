@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <title>STOMP + Login Cookie Test</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h2>🔐 로그인</h2>
+
+  <div class="box">
+    <input id="email" placeholder="email" />
+    <input id="password" type="password" placeholder="password" />
+    <button id="loginBtn">Login</button>
+    <button id="logoutBtn">Logout</button>
+  </div>
+
+  <hr />
+
+  <h2>💬 STOMP 테스트</h2>
+
+  <div class="box">
+    <button id="connectBtn">Connect</button>
+    <button id="disconnectBtn">Disconnect</button>
+  </div>
+
+  <div class="box">
+    <input id="messageInput" placeholder="보낼 메시지" />
+    <button id="sendBtn">Send</button>
+  </div>
+  <pre id="log"></pre>
+  <script type="module" src="/src/main.js"></script>
+  <script>
+    const global = globalThis;
+  </script>
+</body>
+</html>
