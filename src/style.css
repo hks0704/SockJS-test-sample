@@ -1,0 +1,24 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+input {
+  margin-right: 5px;
+}
+
+button {
+  margin-right: 5px;
+}
+
+.box {
+  margin-bottom: 10px;
+}
+
+#log {
+  background: #111;
+  color: #0f0;
+  padding: 10px;
+  height: 260px;
+  overflow-y: auto;
+}
